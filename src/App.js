@@ -5,6 +5,7 @@ import Topbar from './Topbar';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./css/sb-admin-2.css";
 import Dashboard from './Dashboard';
+import "./css/fontawesome-free/css/all.min.css";
 
 function App() {
   return (
