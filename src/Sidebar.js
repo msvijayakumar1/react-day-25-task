@@ -37,7 +37,7 @@ function Sidebar() {
     <Link class="nav-link collapsed" to={"/users"} data-toggle="collapse" data-target="#collapseTwo"
         aria-expanded="true" aria-controls="collapseTwo">
         <i class="fas fa-fw fa-cog"></i>
-        <span>Components</span>
+        <span>Users</span>
     </Link>
  
 </li>
