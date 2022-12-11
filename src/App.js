@@ -8,6 +8,10 @@ import Dashboard from './Dashboard';
 import "./css/fontawesome-free/css/all.min.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import User from './User';
+import CreateUser from './CreateUser';
+import Viewuser from './Viewuser';
+import EditUser from './EditUser';
+import EditProfile from './EditProfile';
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
         <Routes>
           <Route path='/dashboard' element={<Dashboard/>}/>
           <Route path='/users' element={<User/>}/>
+          <Route path='/create-user' element={<CreateUser/>}/>
+          <Route path='/profile/:id' element={<Viewuser/>}/>
+          <Route path='/edit-user/:id' element={<EditUser/>}/>
+          <Route path='/edit-profile/:id' element={<EditProfile/>}/>
         </Routes>
         </div>
        </div>
